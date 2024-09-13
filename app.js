@@ -10,7 +10,7 @@ const app=express();
 require('dotenv').config();
 const port=5000;
 
-app.use(express.static('public'))
+
 const dbURI = process.env.dbURI;
 mongoose.connect(dbURI)
 .then((result)=>{

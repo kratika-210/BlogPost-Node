@@ -17,7 +17,7 @@ const blog_index_get = (req, res) => {
 // blog_id_get
 const blog_id_get = (req, res) => {
     BlogPost.findById(req.params.id)
-        .populate('author')
+        // .populate('author')
         .then((blog) => {
             console.log("Getting blog by ID");
             console.log(blog);
