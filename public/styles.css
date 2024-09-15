@@ -1,9 +1,9 @@
-/* General Styles  */
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background: radial-gradient(circle, #E0F7FA, #B9D9EB, #A2C2E6, #8AB8D8);
 }
 
 /* Navigation Styles */
@@ -534,6 +534,4 @@ button:hover {
   margin-bottom: 15px;
   text-align: center;
 }
- 
 
-  

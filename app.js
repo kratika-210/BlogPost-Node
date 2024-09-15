@@ -20,7 +20,8 @@ mongoose.connect(dbURI)
     });
 })
 .catch((err)=>{
-    console.log('Failed to connect to database');
+    console.log('Failed to connect to database',err);
+    
     process.exit(1);
 })
 
