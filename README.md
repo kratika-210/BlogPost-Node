@@ -44,3 +44,6 @@ To get a local copy of this project up and running, follow these simple steps:
 Running the Application
 
 1. npm run start
+
+Here you can start the website....
+https://blogpost-node-lwqc.onrender.com/
